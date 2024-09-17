@@ -14,7 +14,7 @@ If you like this project, don't forget to leave a star. ⭐
 
 ### Containerized Docker image for [Bearshare](https://bit.ly/4g7PmCs) daily reward 💰
 
->**Note:** This built image comes with no warranty of any kind. By using this image you agree this License Aggrement in addition with Honeygain's T&C.
+>**Note:** This built image comes with no warranty of any kind. By using this image you agree this License Aggrement in addition with Bearshare's T&C.
 
 This is a simple Docker image for installing Bearshare's daily reward auto-claim script as a container.
 
@@ -154,7 +154,7 @@ Donations are warmly welcomed no matter how small and thank you very much. 😌
 - **PayPal** - [@xterna](https://paypal.me/xterna)
 
 ## Disclaimer ⚠️
-Disclaimer: This image is neither affiliated with nor endorsed by Honeygain. Use this image at your own risk and responsibility. By using this image, you agree to be automatically bound by the License Agreement associated with it.
+Disclaimer: This image is neither affiliated with nor endorsed by Bearshare. Use this image at your own risk and responsibility. By using this image, you agree to be automatically bound by the License Agreement associated with it.
 
 The author does not provide any assurances, whether explicit or implicit, regarding the accuracy, completeness, or appropriateness of this image for specific purposes. The author shall not be held accountable for any damages, including but not limited to direct, indirect, incidental, consequential, or special damages, arising from the use or inability to use this image or its accompanying documentation, even if the possibility of such damages has been communicated.
 
