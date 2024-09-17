@@ -13,9 +13,10 @@ Bearshare Pot 🐻💰
 If you like this project, don't forget to leave a star. ⭐
 
 ### Containerized Docker image for [Bearshare](https://bit.ly/4g7PmCs) daily reward 💰
->**Note:** This build comes with no warranty of any kind. By using this image you also agree to Bearshare's T&C.
 
-This is a simple Docker image for installing Bearshare's Lucky Pot auto-claim script as a container.
+>**Note:** This built image comes with no warranty of any kind. By using this image you agree this License Aggrement in addition with Honeygain's T&C.
+
+This is a simple Docker image for installing Bearshare's daily reward auto-claim script as a container.
 
 </div>
 
