@@ -6,6 +6,7 @@ Bearshare Pot 🐻💰
 
 [![Static Badge](https://img.shields.io/badge/GitHub-blue?style=flat&logo=github)](https://github.com/XternA/bearshare-reward)
 [![Static Badge](https://img.shields.io/badge/License-purple?style=flat&logo=github)](https://github.com/XternA/bearshare-reward?tab=License-1-ov-file)
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/version/XternA/bearshare-reward?style=flat&logo=opencontainersinitiative&label=Image%20Tag&color=red)
 [![Docker Stars](https://img.shields.io/docker/stars/xterna/bearshare-pot?logo=docker&label=Docker%20Stars)](https://hub.docker.com/r/xterna/bearshare-pot)
 [![GitHub Repo stars](https://img.shields.io/github/stars/XternA/bearshare-reward?style=flat&logo=github&label=Stars&color=orange)](https://github.com/XternA/bearshare-reward)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat&logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=32DCQ65QM5FNE)
@@ -21,7 +22,7 @@ This is a simple Docker image for installing Bearshare's daily reward auto-claim
 </div>
 
 ## Pulling Image 🐋
-**64-Bit** architecture and **ARM64**:
+**64-Bit Platform:** `linux/amd64` `linux/arm64`
 ```sh
 docker pull ghcr.io/xterna/bearshare-pot
 ```
