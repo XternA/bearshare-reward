@@ -37,7 +37,7 @@ It uses very minimal resources, resulting in the CPU utilisation staying at idle
 CONTAINER ID   NAME            CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O      PIDS
 702d98b1805b   bearshare-pot   0.00%     73.51MiB / 320MiB   22.97%    2.13MB / 149kB   58MB / 127MB   12
 ```
-> This script comes pre-bundled with [**Income Generator**](https://github.com/XternA/income-generator). A tool which consolidates and earns passive income from multiple sources.
+> This image comes pre-configured with [**Income Generator**](https://github.com/XternA/income-generator). A tool which consolidates and earns passive income from multiple sources.
 
 ## Features 🚀
 - Automatically log in and claim daily reward if threshold reached.
