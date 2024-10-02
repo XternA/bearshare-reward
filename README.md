@@ -30,7 +30,7 @@ docker pull ghcr.io/xterna/bearshare-pot
 ## Overview 🐻
 [**Bearshare-Pot**](https://bit.ly/4g7PmCs) 🐻💰 is a script (bot) powered by NodeJS and JavaScript to automatically claim the daily reward from [**Bearshare**](https://bit.ly/4g7PmCs)🐻.
 
-The script is designed to be run in a docker environment, allowing it to be deployed alongside the Bearshare docker container.
+The script bot is designed to run in a docker environment, allowing it to be deployed alongside the Bearshare docker container.
 
 It uses very minimal resources, resulting in the CPU utilisation staying at idle **0%** the entire time unless logging into the website.
 ```
@@ -38,7 +38,7 @@ CONTAINER ID   NAME            CPU %     MEM USAGE / LIMIT   MEM %     NET I/O  
 702d98b1805b   bearshare-pot   0.00%     73.51MiB / 320MiB   22.97%    2.13MB / 149kB   58MB / 127MB   12
 ```
 
-> [**Income Generator**](https://github.com/XternA/income-generator) comes pre-configured with this image. A tool which consolidates and earns passive income from multiple sources.
+> [**Income Generator**](https://github.com/XternA/income-generator) comes pre-configured with this image and auto-update. A tool which consolidates and earns passive income from multiple sources.
 
 ## Features 🚀
 - Automatically log in and claim daily reward if threshold reached.
@@ -48,11 +48,11 @@ CONTAINER ID   NAME            CPU %     MEM USAGE / LIMIT   MEM %     NET I/O  
 ### Output 🖥️
 This is what the script looks like when you inspect the output via `docker logs bearshare-pot`.
 ```
------------- Bearshare Reward Auto Claim ------------
+----------- Bearshare Reward Auto Claim -----------
 Starting login process...
 Logging in as example@abc.com
 Logged into Bearshare 🐻
------------------------------------------------------
+---------------------------------------------------
 
 Current Earnings:    $0.285 💵
 Lifetime Earnings:   $0.285 💰
@@ -85,7 +85,7 @@ File: `compose.yml`
 services:
   bearshare-pot:
     container_name: bearshare-pot
-    image: xterna/bearshare-pot
+    image: ghcr.io/xterna/bearshare-pot
     restart: unless-stopped
     environment:
       - EMAIL=$EMAIL
@@ -100,7 +100,7 @@ With Bearshare app docker image.
 services:
   bearshare:
     container_name: bearshare
-  image: xterna/bearshare
+    image: xterna/bearshare
     restart: always
     environment:
       - EMAIL=$EMAIL
@@ -143,7 +143,7 @@ docker run -d --restart unless-stopped --name bearshare-pot -e EMAIL=$EMAIL -e P
 
 Directly passing credentials.
 ```sh
-docker run -d --restart unless-stopped --name bearshare-pot -e EMAIL=example.gmail.com -e PASSWORD=pass123 ghcr.io/xterna/bearshare-pot
+docker run -d --restart unless-stopped --name bearshare-pot -e EMAIL=example@abc.com -e PASSWORD=pass123 ghcr.io/xterna/bearshare-pot
 ```
 This will start the application in the background. The alias assigned is `bearshare-pot`.
 
